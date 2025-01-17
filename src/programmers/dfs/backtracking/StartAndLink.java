@@ -4,6 +4,10 @@ import java.util.Scanner;
 
 /**
  * 백준 스타트와 링크 (DFS)
+ *
+ * 1. 백트래킹을 이용한 조합 만들기 (A팀 조합만 만들면 자연스레 B팀 조합 만들어짐)
+ * 2. 한 팀의 정원인 N / 2에 LV 탐색이 도달하면 각 팀 능력치 계산
+ * 3. 능력치 계산 후 결과 교체 반복
  */
 public class StartAndLink {
     static int n;
